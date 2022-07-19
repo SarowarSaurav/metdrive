@@ -195,18 +195,18 @@ export default function HelperButtonGroup() {
             </Tooltip>
           </>
         )}
-        <Tooltip title="Visit Our GitHub">
+        <Tooltip title="Visit my portfolio">
           <StyledFab
             size="small"
-            href="https://github.com/kevinshen56714/SkyOffice"
+            href="https://github.com/SarowarSaurav"
             target="_blank"
           >
             <GitHubIcon />
           </StyledFab>
         </Tooltip>
-        <Tooltip title="Follow Us on Twitter">
-          <StyledFab size="small" href="https://twitter.com/SkyOfficeApp" target="_blank">
-            <TwitterIcon />
+        <Tooltip title="Follow my website">
+          <StyledFab size="small" href="https://sarowarsaurav.com" target="_blank">
+            <WebsiteIcon />
           </StyledFab>
         </Tooltip>
         <Tooltip title="Switch Background Theme">
