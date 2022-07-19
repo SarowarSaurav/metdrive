@@ -25,7 +25,7 @@ const gameServer = new Server({
 gameServer.define(RoomType.LOBBY, LobbyRoom)
 gameServer.define(RoomType.PUBLIC, SkyOffice, {
   name: 'Public Lobby',
-  description: 'For making friends and familiarizing yourself with the controls',
+  description: 'For office meeting & Demo use for Battle of Minds 2022',
   password: null,
   autoDispose: false,
 })
