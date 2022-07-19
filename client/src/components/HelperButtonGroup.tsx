@@ -12,7 +12,8 @@ import CloseIcon from '@mui/icons-material/Close'
 import LightbulbIcon from '@mui/icons-material/Lightbulb'
 import ArrowRightIcon from '@mui/icons-material/ArrowRight'
 import GitHubIcon from '@mui/icons-material/GitHub'
-import TwitterIcon from '@mui/icons-material/Twitter'
+import TwitterIcon from '@mui/icons-material/Language'
+
 
 import { BackgroundMode } from '../../../types/BackgroundMode'
 import { toggleBackgroundMode } from '../stores/UserStore'
@@ -206,7 +207,7 @@ export default function HelperButtonGroup() {
         </Tooltip>
         <Tooltip title="Follow my website">
           <StyledFab size="small" href="https://sarowarsaurav.com" target="_blank">
-            <WebsiteIcon />
+            <TwitterIcon />
           </StyledFab>
         </Tooltip>
         <Tooltip title="Switch Background Theme">
