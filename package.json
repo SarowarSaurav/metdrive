@@ -8,12 +8,12 @@
   "main": ".eslintrc.js",
   "scripts": {
     "start": "cd server && ts-node-dev --project tsconfig.server.json --respawn --transpile-only index.ts",
-    "heroku-postbuild": "npm i && cd types && npm i && cd ../server && tsc --project tsconfig.server.json",
+    "heroku-postbuild": "npm i && cd cliennt && npm i && cd ../server && tsc --project tsconfig.server.json && cd client && npm i && npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sarowarsaurav/skyoffice.git"
+    "url": "git+https://github.com/sarowarsaurav/metdrive.git"
   },
   "keywords": [],
   "author": "kevinshen56714",
