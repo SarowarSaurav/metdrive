@@ -166,7 +166,7 @@ export default function RoomSelectionDialog() {
             </CustomRoomWrapper>
           ) : (
             <>
-              <Title>Virtual Meeting Room of Dhaka Bank PLC</Title>
+              <Title>Virtual Office Room || Dhaka Bank PLC </Title>
               <Content>
                 <img src={logo} alt="logo" />
                 <Button variant="contained" color="secondary" onClick={handleConnect}>
